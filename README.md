@@ -68,6 +68,10 @@ behaviour. For purchase or licence help, [contact Scott](https://scotthudson.com
 Issues are public. Do not post licence keys, credentials, customer call records,
 phone numbers or private network details. Redact screenshots and logs.
 
+## Support my projects
+
+<a href="https://www.buymeacoffee.com/scotthudson"><img src="https://img.buymeacoffee.com/button-api/?text=Support%20my%20Projects&amp;emoji=&amp;slug=scotthudson&amp;button_colour=40DCA5&amp;font_colour=ffffff&amp;font_family=Cookie&amp;outline_colour=000000&amp;coffee_colour=FFDD00" alt="Support my Projects on Buy Me a Coffee" /></a>
+
 ## About this repository
 
 This is the public release, documentation and feedback repository. The application
