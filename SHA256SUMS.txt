@@ -1,0 +1,2 @@
+8682a3ce9fc63f0bb7b913f47d5ef82bd1cb0b0625fd7b512d543816de697f2b  CallRecords-v1.1.0-Windows.zip
+0f45ec17f4f75dc843f9b1069c8812ed05278e5fca14d4371799c0a11817d3a6  CDR-Search-Tool-User-Guide.pdf
