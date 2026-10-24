@@ -1,0 +1,6 @@
+*.zip
+*.pem
+*.key
+.env*
+node_modules/
+data/
