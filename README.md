@@ -12,10 +12,11 @@ screens. Select an image to view it full size.
 
 ### Storage and retention
 
-The storage view shows **4,039,273 indexed calls** and **38,087 archived CDR files**,
-alongside disk usage, configurable storage limits and retention controls.
+Manage large call-record archives with configurable storage limits and retention
+periods. Monitor disk usage and indexed records, and choose whether older imported
+records are removed automatically.
 
-![Call Records storage administration showing 4,039,273 indexed calls](assets/storage-retention.png)
+![Call Records configurable storage, retention and automatic cleanup controls](assets/storage-retention.png)
 
 ### Detailed call records
 
