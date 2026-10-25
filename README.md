@@ -4,7 +4,28 @@
 
 [Website](https://scotthudson.com.au/projects/call-records) · [Download for Windows](https://scotthudson.com.au/downloads/call-records) · [User guide](https://scotthudson.com.au/projects/call-records/docs) · [Full licence](https://scotthudson.com.au/purchase/call-records)
 
-![CDR Search Tool interface](assets/search.png)
+## Screenshots
+
+The call records and telephone numbers in these screenshots are entirely fictional
+demonstration data. No hospital call records are shown. Select an image to view
+the full 3840 × 1920 capture.
+
+### Detailed call records
+
+Search results with call direction, answer status, timings and final destination.
+
+![Call Records detailed search results using entirely fictional demonstration calls](assets/detailed-results.jpg)
+
+### Call-volume reporting
+
+Monthly incoming and outgoing totals across three demonstration extensions,
+including answered and unanswered calls, forwarding and talk time.
+
+![Call Records monthly volume report showing 5,304 fictional demonstration calls](assets/call-volume.jpg)
+
+### Report setup
+
+![Call Records telephone-number and date filters in a clean demo installation](assets/search.png)
 
 ## Current release: v1.1.0
 
