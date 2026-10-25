@@ -6,9 +6,16 @@
 
 ## Screenshots
 
-The call records and telephone numbers in these screenshots are entirely fictional
-demonstration data. No hospital call records are shown. Select an image to view
-the full 3840 × 1920 capture.
+The detailed search and call-volume examples use entirely fictional demonstration
+data. Additional screenshots show the application's configuration and management
+screens. Select an image to view it full size.
+
+### Storage and retention
+
+The storage view shows **4,039,273 indexed calls** and **38,087 archived CDR files**,
+alongside disk usage, configurable storage limits and retention controls.
+
+![Call Records storage administration showing 4,039,273 indexed calls](assets/storage-retention.png)
 
 ### Detailed call records
 
@@ -22,6 +29,25 @@ Monthly incoming and outgoing totals across three demonstration extensions,
 including answered and unanswered calls, forwarding and talk time.
 
 ![Call Records monthly volume report showing 5,304 fictional demonstration calls](assets/call-volume.jpg)
+
+### Scheduled reports
+
+Configure report type, telephone numbers, reporting period, frequency and email
+recipients. Scheduled reports run while Call Records is running.
+
+![Call Records scheduled-report configuration](assets/scheduled-reports.png)
+
+### Historical imports and user accounts
+
+Import historical CUCM CDR files and manage application users and access levels.
+
+![Call Records historical CDR import and user-account administration](assets/import-users.png)
+
+### Dial-plan matching and email settings
+
+Configure extension matching and the SMTP settings used for scheduled reports.
+
+![Call Records dial-plan matching and SMTP configuration](assets/search-email-settings.png)
 
 ### Report setup
 
