@@ -1,5 +1,25 @@
 # Release notes
 
+## v1.2.0 - 1 November 2026
+
+- Windows service with automatic startup and failure recovery, independent of the Manager, browser and signed-in user.
+- Native Manager for installation/migration, start/stop/restart, updates, code rollback and diagnostics; configurable web port (default 3080).
+- Existing database, call archives, installation identity, licence and encryption keys are preserved during managed updates. Code rollback preserves newer records.
+- Licensing has its own sidebar page. Existing Free/Full terms are unchanged.
+- Manual Data Gap Check: horizontal 24-hour daily timelines, clickable details, cluster and individual-manager activity.
+- Separate filename evidence for sequence discontinuities, resets, failed/pending imports, duplicates and conflicting receipts; configurable verified node roles and thresholds.
+- Checks are read-only and limited to a selected period of up to 31 days. Quiet intervals and sequence candidates do not certify missing records or completeness. No automatic repair or deletion.
+- First-party application JavaScript is obfuscated and the runtime/dependencies are included.
+
+The package is unsigned. Windows administrator approval is required for service installation; organisational software/signing rules still apply. Installer actions do not bypass firewall or endpoint policy.
+
+Before updating, back up the complete data folder, extract the new package separately and close installed Manager windows. Use a maintenance window and verify your live CUCM feed after migration. See the user guide for supported layouts and rollback details.
+
+File: `CallRecords-v1.2.0-Windows.zip`  
+Size: **36,398,639 bytes**  
+SHA-256: `caff9c2762268f5dbfd1420fdc0aebe840ac93cb3f1668322701072339934bb7`
+
+
 ## v1.1.0 — 24 October 2026
 
 First stable public release with permanent Full Licence activation.

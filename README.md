@@ -54,10 +54,9 @@ Configure extension matching and the SMTP settings used for scheduled reports.
 
 ![Call Records telephone-number and date filters in a clean demo installation](assets/search.png)
 
-## Current release: v1.1.0
+## Current release: v1.2.0
 
-Released 24 October 2026. The download, purchase, licence delivery and activation
-flow has been validated end to end by the developer.
+Released 1 November 2026. Existing Full licences and their future-update terms are unchanged.
 
 - Search Cisco CUCM call records and export results.
 - Receive CDR files through the embedded SFTP receiver.
@@ -66,8 +65,10 @@ flow has been validated end to end by the developer.
 - Manage user roles, audit history, SMTP, storage and retention.
 - Run locally with the included runtime and production dependencies.
 
-The experimental data-verification feature is **not included** in this release.
-The application does not certify that source call records are complete.
+New in 1.2.0: a Windows service with automatic startup and failure recovery, a native
+Manager with a configurable web port, a dedicated Licensing page, and manual
+horizontal activity timelines with separate filename evidence. The gap checker is
+an investigation aid and does not certify that source call records are complete.
 
 ## Free and Full editions
 
@@ -87,13 +88,13 @@ The same installer supports both editions.
 
 1. [Download the Windows ZIP](https://scotthudson.com.au/downloads/call-records), or choose the versioned Windows ZIP from [Releases](https://github.com/Huddo58/cdr-search-tool/releases/latest).
 2. Extract the complete archive into its own folder. Keep all files together.
-3. Run `START_CALL_RECORDS.cmd` and open `http://localhost:3080`.
+3. Run `Setup.exe`, choose the application/data folders, service name and web port, then select **Install / migrate** and approve Windows elevation. Use **Open app** after health validation. The default web port is `3080`.
 4. Complete first-run administrator setup before connecting your team or CUCM.
 5. Follow the [user guide](https://scotthudson.com.au/projects/call-records/docs) to configure ingestion, access and storage.
 
-For a Full Licence, open **Administration → Licensing**, copy your **Instance ID**,
+For a Full Licence, open **Licensing** in the sidebar, copy your **Instance ID**,
 then [purchase your licence](https://scotthudson.com.au/purchase/call-records) using
-that exact ID. Paste the emailed key into the same Licensing card and activate.
+that exact ID. Paste the emailed key into the same Licensing page and activate.
 Activation does not change your chosen retention policy or run cleanup.
 
 ## Updates and backups
@@ -102,6 +103,11 @@ Keep the entire data folder backed up, including records, configuration,
 installation identity and activated licence. Preserve it when updating. Install
 new versions using the [update and rollback guidance](https://scotthudson.com.au/projects/call-records/docs/updates-and-rollback).
 Existing Full licences include future Call Records updates for the licensed installation.
+
+Updates briefly stop collection, back up the installation and validate startup.
+Code rollback preserves the current database and newer calls. Close installed
+Manager windows before updating. The package is unsigned; follow your
+organisation's software and signing policy.
 
 Version notes, the Windows package, the PDF guide and checksums are available on
 each release. Verify the ZIP against the published SHA-256 before running it.
