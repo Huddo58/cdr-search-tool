@@ -1,6 +1,8 @@
 # Release notes
 
-## v1.2.0 - 1 November 2026
+**Current recommended release:** [v1.1.0 portable](https://github.com/Huddo58/cdr-search-tool/releases/tag/v1.1.0). The v1.2.0 Windows service installer can fail to start on systems that reject unsigned downloaded PowerShell scripts.
+
+## v1.2.0 - 1 November 2026 (withdrawn from recommended downloads)
 
 - Windows service with automatic startup and failure recovery, independent of the Manager, browser and signed-in user.
 - Native Manager for installation/migration, start/stop/restart, updates, code rollback and diagnostics; configurable web port (default 3080).
